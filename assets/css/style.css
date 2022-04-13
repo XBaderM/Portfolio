@@ -44,3 +44,6 @@ header h1{
   top: 200px;
   right: 50px;
 }
+.container{
+  display: flex;
+}
