@@ -179,7 +179,7 @@ li{
 
 @font-face {
   font-family: 'songster';
-  src: url(assets/fonts/Aur.otf);
+  src: url(/assets/fonts/Aur.otf);
 }
 
 /* mobile size */
