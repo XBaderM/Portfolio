@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
 }
+ /* header section styles */
 
 .header { 
 width: 100%;
@@ -36,6 +37,38 @@ background-color:#5e5c59;
 .nav-link a:hover {
  color: blue;
 }
+ /* banner section */
+
+.banner{
+  background-color:#242625; 
+ display: flex;
+}
+
+.avatar{
+  margin-left: 20px;
+ }
+
+ /* conainers section */
+ 
+ .container{
+
+  display: flex;
+  margin-top: 30PX;
+}
+
+ .child2{
+  width: 80%;
+}
+
+.child1{
+  width: 20%;
+  border-right: 3px solid red;
+}
+.child1 h2{
+ color: black;
+ text-align: center;
+ font-family: songster, sans-serif; 
+}
 
 p{
   font-size: 16px;
@@ -44,25 +77,17 @@ p{
   font-family: songster, sans-serif;
 }
 
-  
+.cards{
 
-.avatar{
- margin-left: 20px;
+  position: relative;
+
 }
+
+
 .pic{
 
  border-radius: 60%;
 
-}
-.banner{
-   background-color:#242625; 
-  display: flex;
-}
-
-.container{
-
-  display: flex;
-  margin-top: 30PX;
 }
 
 h1{
@@ -72,19 +97,7 @@ h1{
    font-size: 100px;
    font-weight: 100;
 }
-.child1{
-   width: 20%;
-   border-right: 3px solid red;
-}
-.child1 h2{
-  color: black;
-  text-align: center;
-  font-family: songster, sans-serif; 
-}
 
-.child2{
-   width: 80%;
-}
 
 .gall{
   width: 80%;
@@ -105,6 +118,7 @@ h1{
   background-color: bisque;
   font-family: songster, sans-serif;
 }
+ /* apps gallery section */
 
 .apps{
   display: flex;
@@ -126,11 +140,7 @@ h1{
   height: 380px;
   object-fit: cover;
 }
-.cards{
 
- position: relative;
-
-}
 .text2{
   position: absolute;
   top: 20px;
@@ -139,17 +149,20 @@ h1{
   font-family: songster, sans-serif;
 }
 
-.footer{
-  background-color: #242625;
-  height: 120px;
-}
-
 h2{
   text-align: center;
   font-size: 30px;
   color: white;
   font-family: songster, sans-serif;
 }
+ /* footer section */
+
+.footer{
+  background-color: #242625;
+  height: 120px;
+}
+
+
 
 ul{
   text-align: center;
