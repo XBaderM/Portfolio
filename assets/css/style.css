@@ -38,3 +38,25 @@ background-color:#5e5c59;
 .nav-link a:hover {
  color: blue;
 }
+
+p{
+  font-size: 23px;
+  text-align: center;
+  font-family: songster, sans-serif;
+}
+
+  
+
+.avatar{
+ margin-left: 20px;
+}
+.pic{
+
+ border-radius: 60%;
+
+}
+.banner{
+   background-color:#242625; 
+  display: flex;
+}
+
