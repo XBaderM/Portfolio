@@ -140,3 +140,40 @@ h1{
   font-family: songster, sans-serif;
 }
 
+.footer{
+  background-color: #242625;
+  height: 120px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: songster, sans-serif;
+}
+
+ul{
+  text-align: center;
+}
+
+li{
+ display: inline-block;
+ margin: 20px;
+ font-size: 20px;
+
+}
+.footer-container{
+ display: flex;
+ justify-content: center;
+}
+.basic{
+ display: flex;
+ justify-content: center;
+}
+
+.basic a{
+ color: white;
+ font-family: songster, sans-serif;
+ text-decoration: none;
+}
+
