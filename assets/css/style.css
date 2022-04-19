@@ -1,3 +1,8 @@
+:root {
+  --main-color:white;
+  --sec-color: red;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +34,7 @@ background-color:#5e5c59;
 .nav-link a {
  text-decoration: none;
  font-size: 20px;
- color: white;
+ color: var(--main-color);
  font-family: songster, sans-serif;
 }
 
@@ -62,7 +67,7 @@ background-color:#5e5c59;
 
 .child1{
   width: 20%;
-  border-right: 3px solid red;
+  border-right: 3px solid var(--sec-color);
 }
 .child1 h2{
  color: black;
@@ -92,7 +97,7 @@ p{
 
 h1{
    font-family: songster, sans-serif;
-   color: white;
+   color: var(--main-color);
    text-align: center;
    font-size: 100px;
    font-weight: 100;
@@ -105,7 +110,7 @@ h1{
   object-fit: cover;
   height:400px;
   margin-right: 20px;
-  border: 10px solid red;
+  border: 10px solid var(--sec-color);
   margin-bottom: 10px;
   margin-left: 10px;
   position: relative;
@@ -132,7 +137,7 @@ h1{
 .pic2{
   object-fit: cover;
   width: 300px;
-  border: 10px solid red;
+  border: 10px solid var(--sec-color);
   position: relative;
 }
 .pic3{
@@ -152,7 +157,7 @@ h1{
 h2{
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: var(--main-color);
   font-family: songster, sans-serif;
 }
  /* footer section */
@@ -184,7 +189,7 @@ li{
 }
 
 .basic a{
- color: white;
+ color:var(--main-color);
  font-family: songster, sans-serif;
  text-decoration: none;
 }
