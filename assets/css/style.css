@@ -3,9 +3,7 @@
   margin: 0;
 }
 
-
 .header { 
-top: 0;
 width: 100%;
 height: 61px;
 background-color:#5e5c59;
@@ -175,5 +173,46 @@ li{
  color: white;
  font-family: songster, sans-serif;
  text-decoration: none;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: 'songster';
+  src: url(/assets/fonts/Aur.otf);
+}
+
+/* mobile size */
+
+@media screen and (max-width: 596px) {
+  .nav-container,
+  .nav-links-container,
+  .banner, .container, .footer-container, .basic{
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .apps{
+     flex-direction: column;
+     align-items: center;
+     margin-left: 0;
+  }
+
+  .basic{
+     flex-direction: column;
+     align-items: center;
+
+  }
+
+  .header, .footer {
+     position: static; 
+    height: 100%; 
+  }
+
+  .child1{
+     border: none;
+  }
+
 }
 
