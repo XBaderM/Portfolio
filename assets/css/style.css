@@ -194,12 +194,21 @@ li{
  text-decoration: none;
 }
 
+.project2{  
+
+  width: 80%;
+  margin: auto;
+  border: 10px solid var(--sec-color);
+
+}
+
 /* fonts */
 
 @font-face {
   font-family: 'songster';
   src: url(/assets/fonts/Aur.otf);
 }
+
 
 /* mobile size */
 
